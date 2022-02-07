@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ProgrammingTechnologies</string>
+    <string name="network_call">NETWORK CALL</string>
 </resources>
