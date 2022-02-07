@@ -13,9 +13,11 @@ import com.star.programmingtechnologies.data.model.User
 import com.star.programmingtechnologies.data.util.Status
 import com.star.programmingtechnologies.data.util.ViewModelFactory
 import com.star.programmingtechnologies.ui.adapter.UserAdapter
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.activity_user.*
 import javax.inject.Inject
 
+@AndroidEntryPoint
 class UserActivity: AppCompatActivity() {
 
     @Inject
