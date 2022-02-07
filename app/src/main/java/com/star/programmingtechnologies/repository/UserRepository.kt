@@ -5,7 +5,7 @@ import com.star.programmingtechnologies.data.local.UserDao
 import com.star.programmingtechnologies.data.model.User
 import javax.inject.Inject
 
-class Repository @Inject constructor(
+class UserRepository @Inject constructor(
     private val userApi: UserApi,
     private val userDao: UserDao
 ) {
