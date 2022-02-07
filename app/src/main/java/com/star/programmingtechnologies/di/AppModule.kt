@@ -13,7 +13,6 @@ import javax.inject.Singleton
 @Module
 class AppModule {
 
-
     @ApplicationScope
     @Singleton
     @Provides
